@@ -1,17 +1,18 @@
-Javalin hello world
+## Hello World Javalin
 
+### Build and Run Locally
 
-
-### Build the app and run locally
-```
+```bash
 mvn package
 java -jar target/javalin-hello-world-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
-### Deploy to heroku
+### Deploy to Heroku
+
 ```
 mvn heroku:deploy
 ```
 
 ### Heroku
-https://javalin-hello-world-andy.herokuapp.com/
+
+[Deployed app](https://javalin-hello-world-andy.herokuapp.com)
